@@ -1,4 +1,5 @@
 xcodebuild archive \
+  -project "RKValueTransformers/RKValueTransformers.xcodeproj" \
   -scheme "RKValueTransformers" \
   -sdk iphoneos \
   -archivePath "archives/ios_devices.xcarchive" \
@@ -6,6 +7,7 @@ xcodebuild archive \
   SKIP_INSTALL=NO
   
 xcodebuild archive \
+  -project "RKValueTransformers/RKValueTransformers.xcodeproj" \
   -scheme "RKValueTransformers" \
   -sdk iphonesimulator \
   -archivePath "archives/ios_simulators.xcarchive" \

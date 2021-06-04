@@ -7,19 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		EBA0EB442667F13D008BAB24 /* RKValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0EB422667F13D008BAB24 /* RKValueTransformers.m */; };
-		EBA0EB462667F182008BAB24 /* RKValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA0EB432667F13D008BAB24 /* RKValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EBA0EB472667F189008BAB24 /* RKValueTransformers.m in Headers */ = {isa = PBXBuildFile; fileRef = EBA0EB422667F13D008BAB24 /* RKValueTransformers.m */; };
+		EBA0EBE1266AB391008BAB24 /* RKValueTransformers.m in Sources */ = {isa = PBXBuildFile; fileRef = EBA0EBDF266AB391008BAB24 /* RKValueTransformers.m */; };
+		EBA0EBE2266AB391008BAB24 /* RKValueTransformers.h in Headers */ = {isa = PBXBuildFile; fileRef = EBA0EBE0266AB391008BAB24 /* RKValueTransformers.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EBA0EBE3266AB39C008BAB24 /* RKValueTransformers.m in Headers */ = {isa = PBXBuildFile; fileRef = EBA0EBDF266AB391008BAB24 /* RKValueTransformers.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		EBA0EB312667EEFB008BAB24 /* RKValueTransformers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKValueTransformers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		EBA0EB422667F13D008BAB24 /* RKValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKValueTransformers.m; path = Code/RKValueTransformers.m; sourceTree = "<group>"; };
-		EBA0EB432667F13D008BAB24 /* RKValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKValueTransformers.h; path = Code/RKValueTransformers.h; sourceTree = "<group>"; };
+		EBA0EBD1266AB33C008BAB24 /* RKValueTransformers.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RKValueTransformers.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EBA0EBD5266AB33C008BAB24 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EBA0EBDF266AB391008BAB24 /* RKValueTransformers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = RKValueTransformers.m; path = ../../Code/RKValueTransformers.m; sourceTree = "<group>"; };
+		EBA0EBE0266AB391008BAB24 /* RKValueTransformers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = RKValueTransformers.h; path = ../../Code/RKValueTransformers.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		EBA0EB2E2667EEFB008BAB24 /* Frameworks */ = {
+		EBA0EBCE266AB33C008BAB24 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -29,46 +30,55 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		EBA0EB272667EEFB008BAB24 = {
+		EBA0EBC7266AB33C008BAB24 = {
 			isa = PBXGroup;
 			children = (
-				EBA0EB432667F13D008BAB24 /* RKValueTransformers.h */,
-				EBA0EB422667F13D008BAB24 /* RKValueTransformers.m */,
-				EBA0EB322667EEFB008BAB24 /* Products */,
+				EBA0EBD3266AB33C008BAB24 /* RKValueTransformers */,
+				EBA0EBD2266AB33C008BAB24 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		EBA0EB322667EEFB008BAB24 /* Products */ = {
+		EBA0EBD2266AB33C008BAB24 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				EBA0EB312667EEFB008BAB24 /* RKValueTransformers.framework */,
+				EBA0EBD1266AB33C008BAB24 /* RKValueTransformers.framework */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EBA0EBD3266AB33C008BAB24 /* RKValueTransformers */ = {
+			isa = PBXGroup;
+			children = (
+				EBA0EBE0266AB391008BAB24 /* RKValueTransformers.h */,
+				EBA0EBDF266AB391008BAB24 /* RKValueTransformers.m */,
+				EBA0EBD5266AB33C008BAB24 /* Info.plist */,
+			);
+			path = RKValueTransformers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		EBA0EB2C2667EEFB008BAB24 /* Headers */ = {
+		EBA0EBCC266AB33C008BAB24 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA0EB462667F182008BAB24 /* RKValueTransformers.h in Headers */,
-				EBA0EB472667F189008BAB24 /* RKValueTransformers.m in Headers */,
+				EBA0EBE2266AB391008BAB24 /* RKValueTransformers.h in Headers */,
+				EBA0EBE3266AB39C008BAB24 /* RKValueTransformers.m in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		EBA0EB302667EEFB008BAB24 /* RKValueTransformers */ = {
+		EBA0EBD0266AB33C008BAB24 /* RKValueTransformers */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = EBA0EB392667EEFB008BAB24 /* Build configuration list for PBXNativeTarget "RKValueTransformers" */;
+			buildConfigurationList = EBA0EBD9266AB33C008BAB24 /* Build configuration list for PBXNativeTarget "RKValueTransformers" */;
 			buildPhases = (
-				EBA0EB2C2667EEFB008BAB24 /* Headers */,
-				EBA0EB2D2667EEFB008BAB24 /* Sources */,
-				EBA0EB2E2667EEFB008BAB24 /* Frameworks */,
-				EBA0EB2F2667EEFB008BAB24 /* Resources */,
+				EBA0EBCC266AB33C008BAB24 /* Headers */,
+				EBA0EBCD266AB33C008BAB24 /* Sources */,
+				EBA0EBCE266AB33C008BAB24 /* Frameworks */,
+				EBA0EBCF266AB33C008BAB24 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -76,23 +86,23 @@
 			);
 			name = RKValueTransformers;
 			productName = RKValueTransformers;
-			productReference = EBA0EB312667EEFB008BAB24 /* RKValueTransformers.framework */;
+			productReference = EBA0EBD1266AB33C008BAB24 /* RKValueTransformers.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		EBA0EB282667EEFB008BAB24 /* Project object */ = {
+		EBA0EBC8266AB33C008BAB24 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
-					EBA0EB302667EEFB008BAB24 = {
+					EBA0EBD0266AB33C008BAB24 = {
 						CreatedOnToolsVersion = 12.5;
 					};
 				};
 			};
-			buildConfigurationList = EBA0EB2B2667EEFB008BAB24 /* Build configuration list for PBXProject "RKValueTransformers" */;
+			buildConfigurationList = EBA0EBCB266AB33C008BAB24 /* Build configuration list for PBXProject "RKValueTransformers" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -100,18 +110,18 @@
 				en,
 				Base,
 			);
-			mainGroup = EBA0EB272667EEFB008BAB24;
-			productRefGroup = EBA0EB322667EEFB008BAB24 /* Products */;
+			mainGroup = EBA0EBC7266AB33C008BAB24;
+			productRefGroup = EBA0EBD2266AB33C008BAB24 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				EBA0EB302667EEFB008BAB24 /* RKValueTransformers */,
+				EBA0EBD0266AB33C008BAB24 /* RKValueTransformers */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		EBA0EB2F2667EEFB008BAB24 /* Resources */ = {
+		EBA0EBCF266AB33C008BAB24 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -121,18 +131,18 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		EBA0EB2D2667EEFB008BAB24 /* Sources */ = {
+		EBA0EBCD266AB33C008BAB24 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EBA0EB442667F13D008BAB24 /* RKValueTransformers.m in Sources */,
+				EBA0EBE1266AB391008BAB24 /* RKValueTransformers.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		EBA0EB372667EEFB008BAB24 /* Debug */ = {
+		EBA0EBD7266AB33C008BAB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -184,7 +194,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -194,7 +204,7 @@
 			};
 			name = Debug;
 		};
-		EBA0EB382667EEFB008BAB24 /* Release */ = {
+		EBA0EBD8266AB33C008BAB24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -240,7 +250,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -250,7 +260,7 @@
 			};
 			name = Release;
 		};
-		EBA0EB3A2667EEFB008BAB24 /* Debug */ = {
+		EBA0EBDA266AB33C008BAB24 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -258,19 +268,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RKValueTransformers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youla.RKValueTransformers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		EBA0EB3B2667EEFB008BAB24 /* Release */ = {
+		EBA0EBDB266AB33C008BAB24 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
@@ -278,14 +291,17 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = RKValueTransformers/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.youla.RKValueTransformers;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = NO;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
@@ -293,25 +309,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		EBA0EB2B2667EEFB008BAB24 /* Build configuration list for PBXProject "RKValueTransformers" */ = {
+		EBA0EBCB266AB33C008BAB24 /* Build configuration list for PBXProject "RKValueTransformers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBA0EB372667EEFB008BAB24 /* Debug */,
-				EBA0EB382667EEFB008BAB24 /* Release */,
+				EBA0EBD7266AB33C008BAB24 /* Debug */,
+				EBA0EBD8266AB33C008BAB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		EBA0EB392667EEFB008BAB24 /* Build configuration list for PBXNativeTarget "RKValueTransformers" */ = {
+		EBA0EBD9266AB33C008BAB24 /* Build configuration list for PBXNativeTarget "RKValueTransformers" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				EBA0EB3A2667EEFB008BAB24 /* Debug */,
-				EBA0EB3B2667EEFB008BAB24 /* Release */,
+				EBA0EBDA266AB33C008BAB24 /* Debug */,
+				EBA0EBDB266AB33C008BAB24 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = EBA0EB282667EEFB008BAB24 /* Project object */;
+	rootObject = EBA0EBC8266AB33C008BAB24 /* Project object */;
 }
